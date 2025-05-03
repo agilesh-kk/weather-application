@@ -7,11 +7,11 @@ A modern and beginner-friendly weather app built using Flutter and Dart. It fetc
 ## 📂 Project Structure
 
 lib/
-├── main.dart # Main app file
-├── key.dart # Your API key goes here
-├── widgets/
-│ ├── weather_card.dart # Reusable widget for hourly forecast
-│ └── info_card.dart # Widget for additional info (humidity, wind)
+├── main.dart # Main app file\n
+├── key.dart # Your API key goes here\n
+├── widgets/\n
+│ ├── weather_card.dart # Reusable widget for hourly forecast\n
+│ └── info_card.dart # Widget for additional info (humidity, wind)\n
 
 ---
 
