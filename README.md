@@ -26,33 +26,30 @@ flutter pub get
 3. Add Your API Key
 This app uses the OpenWeatherMap API. You must get your own API key to use the app.
 
-🔑 How to get your API key:
+## 🔑 How to get your API key:
 Visit https://openweathermap.org/api
 Sign up for a free account
 Go to your profile → API Keys → copy your key
 
-🔧 Add your key:
+## 🔧 Add your key:
 Create or open this file:
 lib/key.dart
 Paste the following and replace the placeholder:
 const String apiKey = "YOUR_API_KEY_HERE";
 ⚠️ Important: Do not share this API key publicly.
 
-📱 Run the App
+## 📱 Run the App
 To run the app on your device or emulator:
-
 flutter run
 
-📦 Build APK
+## 📦 Build APK
 To generate a release APK to install on Android phones:
-
 flutter build apk --release
 The APK will be generated at:
 build/app/outputs/flutter-apk/app-release.apk
 
-🧹 .gitignore
+## 🧹 .gitignore
 Ensure your .gitignore includes the following to protect sensitive files:
-
 build/
 .dart_tool/
 .packages
@@ -60,11 +57,12 @@ build/
 .idea/
 android/key.properties
 lib/key.dart
-🪪 License
+
+## 🪪 License
 This project is licensed under the MIT License.
 
-👤 Author
+## 👤 Author
 GitHub: agilesh-kk
 
-🌟 Support
+## 🌟 Support
 If you found this project helpful, feel free to give it a ⭐ on GitHub and share it!
